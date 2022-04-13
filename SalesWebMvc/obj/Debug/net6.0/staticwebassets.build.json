@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M1yLhnNwHa4wISYwxDcm8iJzwDznEoiAQ3EEZdBaUxw=",
+  "Hash": "2kAOFfu1pmm2qQU4Ki/zeXSm6/KWzXxCxeavoZvkWkM=",
   "Source": "SalesWebMvc",
   "BasePath": "_content/SalesWebMvc",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\DAVID\\Documents\\Estudos\\SalesWebMvc\\SalesWebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-superhero.css",
+      "SourceId": "SalesWebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DAVID\\Documents\\Estudos\\SalesWebMvc\\SalesWebMvc\\wwwroot\\",
+      "BasePath": "_content/SalesWebMvc",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-superhero.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-superhero.css"
     },
     {
       "Identity": "C:\\Users\\DAVID\\Documents\\Estudos\\SalesWebMvc\\SalesWebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
