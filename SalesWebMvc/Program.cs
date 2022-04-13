@@ -9,6 +9,12 @@ builder.Services.AddDbContext<SalesWebMvcContext>(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<DbContext, SalesWebMvcContext>();
+//builder.Services.AddDbContext(options =>
+//        options.UseSqlServer(Configuration.GetConnectionString(SalesWebMvcContext), builder =>
+//              builder.MigrationsAssembly("SalesWebMvc")));
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
