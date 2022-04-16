@@ -1,6 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SalesWebMvc.Data;
+using SalesWebMvc.Models;
+using SalesWebMvc.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SalesWebMvcContext>(options =>
@@ -8,11 +11,10 @@ builder.Services.AddDbContext<SalesWebMvcContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<Department>();
+builder.Services.AddScoped<SellerService>();
+builder.Services.AddScoped<SeedingService>();
 
-builder.Services.AddScoped<DbContext, SalesWebMvcContext>();
-//builder.Services.AddDbContext(options =>
-//        options.UseSqlServer(Configuration.GetConnectionString(SalesWebMvcContext), builder =>
-//              builder.MigrationsAssembly("SalesWebMvc")));
 
 
 var app = builder.Build();
